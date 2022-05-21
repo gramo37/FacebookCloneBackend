@@ -1,0 +1,22 @@
+{
+  "name": "social-media-app-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd frontend && npm run start\" \"cd backend && npm run dev\""
+  },
+  "author": "gramo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "react-alert": "^7.0.3",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  }
+}
